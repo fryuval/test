@@ -1,0 +1,43 @@
+.fit				{	position: absolute;
+						top: 0;
+						right: 0;
+						bottom: 0;
+						left: 0;													}
+#feed				{	position: absolute;
+						top: 20px;
+						right: 20px;
+						bottom: 20px;
+						left: auto;
+						width: 450px;
+						-webkit-box-shadow: -4px 4px 7px rgba(50, 50, 50, 0.2);
+						-moz-box-shadow:    -4px 4px 7px rgba(50, 50, 50, 0.2);
+						box-shadow:         -4px 4px 7px rgba(50, 50, 50, 0.2);
+						z-index: 1000;												}
+#timeline			{	position: absolute;
+						right: 490px;
+						bottom: 20px;
+						left: 20px;
+						height: 200px;
+						z-index: 1000;												}
+#feed-inner			{	overflow-y: auto;
+						top: 60px;
+						background: #fffff;
+						padding: 5px;												}
+
+.tweet						{	height: 90px;
+								padding: 5px;
+								border-bottom: 1px solid #eeeeee;
+								font-family: "Segoe UI";
+								font-size: 14px;					}
+.tweet .user_name 			{	color: #000000;
+								font-weight: 600;					}
+.tweet .user_screen_name 	{	color: #cccccc;						}
+.tweet  .user_profile_wrap	{	height: 70px;
+								float: left;
+								margin: 5px 10px 5px 0;				}
+.tweet  .user_profile_image	{	width: 50px;
+								height: 50px;
+								background: #eeeeee;				}
+.tweet .created				{	float: right;
+								color: #cccccc;						}
+.tweet .text					{	word-break: break-all;				}
